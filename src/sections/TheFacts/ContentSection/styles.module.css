@@ -1,0 +1,60 @@
+.content_section{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.content_section_inner{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 0 auto;
+}
+
+.content_section h2{
+    font-size: 2.6rem;
+    margin: 60px 0;
+}
+
+.number_counter{
+    padding-top: 0;
+    padding-bottom: 4rem;
+}
+
+.number_counter_inner{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 0 auto;
+}
+
+.number_counter_number{
+    font-size: 5.8rem;
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+}
+
+.number_counter_support{
+    font-size: 6rem;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: left;
+}
+
+.number_counter_group{
+    margin-top: 1.6rem;
+}
+
+.number_counter_body{
+    font-size: 1.9rem;
+    max-width: 250px;
+}
+
+.number_counter_credit{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #1d252d;
+    vertical-align: baseline;
+    max-width: 250px;
+}
