@@ -8,6 +8,7 @@ import MoneyStack from '../sections/TheFacts/MoneyStack'
 import BannerStat from '../sections/TheFacts/BannerStat'
 import StatisticPeople from '../sections/TheFacts/StatisticPeople'
 import Callout from '../sections/TheFacts/Callout'
+import TheVision from '../sections/TheVision'
 import Footer from '../sections/Footer'
 import styles from './index.module.css'
 
@@ -36,6 +37,7 @@ export default function Home() {
       <BannerStat/>
       <StatisticPeople/>
       <Callout/>
+      <TheVision/>
       <Footer/>
     </div>
   )

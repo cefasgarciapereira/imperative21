@@ -11,7 +11,7 @@ export default function Hero(){
             <span>Our Economic System is Broken.</span>
             <h1>It’s Time To Reset Capitalism.</h1>
             <div className={styles.button_container}>
-                <Button label='The Moment' active/>
+                <Button label='The Moment' active activeColor="#0058e0"/>
                 <Button label='The Facts' />
                 <Button label='The Vision' />
             </div>

@@ -11,7 +11,7 @@ export default function TheFacts(){
             <h2>Shareholder Primacy Failed Us</h2>
             <div className={styles.button_container}>
                 <Button label='The Moment'/>
-                <Button label='The Facts' active/>
+                <Button label='The Facts' active activeColor='#545c5e'/>
                 <Button label='The Vision' />
             </div>
         </div>
