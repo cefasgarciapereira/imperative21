@@ -12,6 +12,10 @@
 
 .hero span{
     font-size: 2.6rem;
+    font-weight: 400;
+    font-family: Calibre,Helvetica Neue,Helvetica,sans-serif;
+    line-height: 1.1;
+    max-width: 30rem;
 }
 
 .hero h1{
@@ -33,4 +37,20 @@
     height: 100%;
     z-index: -1;
     object-fit: cover;
+}
+
+@media (min-width: 900px) 
+{
+    .button_container{
+        flex-direction: row;
+    }
+
+    .hero h1{
+        font-size: 6.5rem;
+        max-width: 700px;
+    }
+
+    .hero span{
+        font-size: 3.5rem;
+    }
 }
