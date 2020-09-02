@@ -9,6 +9,7 @@ import BannerStat from '../sections/TheFacts/BannerStat'
 import StatisticPeople from '../sections/TheFacts/StatisticPeople'
 import Callout from '../sections/TheFacts/Callout'
 import TheVision from '../sections/TheVision'
+import {default as TheVisionContentSection} from '../sections/TheVision/ContentSection'
 import Footer from '../sections/Footer'
 import styles from './index.module.css'
 
@@ -38,6 +39,7 @@ export default function Home() {
       <StatisticPeople/>
       <Callout/>
       <TheVision/>
+      <TheVisionContentSection/>
       <Footer/>
     </div>
   )
