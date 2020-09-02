@@ -1,0 +1,55 @@
+.callout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dee0e0;
+    padding: 6rem 0;
+}
+
+.callout h2{
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.callout p{
+    font-size: 1.9rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.credit{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 4rem !important;
+}
+
+@media (min-width: 600px){
+    .callout_inner {
+        padding-left: 6.4rem;
+        padding-right: 6.4rem;
+    }
+}
+
+@media (min-width: 900px){
+    .callout {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+
+    .callout h2{
+        font-size: 3.5rem;
+    }
+
+    .callout p{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .callout_inner {
+        padding-left: 7.2rem;
+        padding-right: 7.2rem;
+        max-width: 90rem;
+    }
+}

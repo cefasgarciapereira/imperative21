@@ -6,6 +6,8 @@ import {default as Section2} from '../sections/TheFacts/ContentSection'
 import SimpleStat from '../sections/TheFacts/SimpleStat'
 import MoneyStack from '../sections/TheFacts/MoneyStack'
 import BannerStat from '../sections/TheFacts/BannerStat'
+import StatisticPeople from '../sections/TheFacts/StatisticPeople'
+import Callout from '../sections/TheFacts/Callout'
 import Footer from '../sections/Footer'
 import styles from './index.module.css'
 
@@ -32,6 +34,8 @@ export default function Home() {
       credit="United States Federal Reserve System, 2016"
       />
       <BannerStat/>
+      <StatisticPeople/>
+      <Callout/>
       <Footer/>
     </div>
   )
