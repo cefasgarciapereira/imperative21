@@ -13,6 +13,7 @@ import {default as TheVisionContentSection} from '../sections/TheVision/ContentS
 import {default as TheVisionCallout} from '../sections/TheVision/Callout'
 import FullWidthTitle from '../sections/TheVision/FullWidthTitle'
 import TwitterShare from '../sections/TheVision/TwitterShare'
+import NewsletterPrompt from '../sections/TheVision/NewsletterPrompt'
 import Footer from '../sections/Footer'
 import styles from './index.module.css'
 
@@ -46,6 +47,7 @@ export default function Home() {
       <TheVisionCallout/>
       <FullWidthTitle/>
       <TwitterShare/>
+      <NewsletterPrompt/>
       <Footer/>
     </div>
   )
