@@ -1,0 +1,47 @@
+.statistic_people{
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
+
+.statistic_inner{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 0 auto;
+}
+
+.statistic_support{
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+.statistic_people img{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.statistic_credit{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+
+@media (min-width: 600px){
+    .statistic_inner {
+        padding-left: 6.4rem;
+    }
+}
+
+@media (min-width: 900px){
+    .statistic_support{
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .statistic_inner {
+        padding-left: 7.2rem;
+        padding-right: 7.2rem;
+        max-width: 90rem;
+    }
+}
