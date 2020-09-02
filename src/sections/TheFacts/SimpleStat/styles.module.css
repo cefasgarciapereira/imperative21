@@ -11,12 +11,12 @@
 
 .simple_stat_prefix{
     font-size: 2.6rem;
+    max-width: 40rem;
 }
 
 .simple_stat_main{
     font-size: 3.6rem;
-    font-weight: 500;
-    margin-top: 4rem;
+    font-weight: 700;
 }
 
 .simple_stat_credit {
@@ -25,4 +25,24 @@
     font-style: italic;
     font-weight: 300;
     margin-top: 3rem;
+}
+
+
+@media (min-width: 900px) 
+{
+    .simple_stat_prefix{
+        font-size: 3.5rem;
+    }
+
+    .simple_stat_main{
+        font-size: 6.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .simple_stat_inner {
+        padding-left: 7.2rem;
+        padding-right: 7.2rem;
+        max-width: 90rem;
+    }
 }
