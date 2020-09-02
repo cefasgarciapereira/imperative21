@@ -11,6 +11,8 @@ import Callout from '../sections/TheFacts/Callout'
 import TheVision from '../sections/TheVision'
 import {default as TheVisionContentSection} from '../sections/TheVision/ContentSection'
 import {default as TheVisionCallout} from '../sections/TheVision/Callout'
+import FullWidthTitle from '../sections/TheVision/FullWidthTitle'
+import TwitterShare from '../sections/TheVision/TwitterShare'
 import Footer from '../sections/Footer'
 import styles from './index.module.css'
 
@@ -42,6 +44,8 @@ export default function Home() {
       <TheVision/>
       <TheVisionContentSection/>
       <TheVisionCallout/>
+      <FullWidthTitle/>
+      <TwitterShare/>
       <Footer/>
     </div>
   )
