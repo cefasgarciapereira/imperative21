@@ -74,7 +74,8 @@
 
     .statistic_group{
         max-width: 50rem;
-        margin: 0 5rem;
+        margin-right: 5rem;
+        margin-left: 25rem;
     }
 
     .statistic_number p{
