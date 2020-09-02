@@ -15,6 +15,7 @@ import FullWidthTitle from '../sections/TheVision/FullWidthTitle'
 import TwitterShare from '../sections/TheVision/TwitterShare'
 import NewsletterPrompt from '../sections/TheVision/NewsletterPrompt'
 import {default as TheVisionContentSection2} from '../sections/TheVision/ContentSection2'
+import LogoGrid from '../sections/TheVision/LogoGrid'
 import Footer from '../sections/Footer'
 import styles from './index.module.css'
 
@@ -50,6 +51,7 @@ export default function Home() {
       <TwitterShare/>
       <NewsletterPrompt/>
       <TheVisionContentSection2/>
+      <LogoGrid/>
       <Footer/>
     </div>
   )
