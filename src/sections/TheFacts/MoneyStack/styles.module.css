@@ -1,0 +1,36 @@
+.money_stack{
+    padding: 8rem 0;
+}
+
+.money_stack_inner{
+    padding: 0 2rem;
+}
+
+.money_stack img{
+    width: 10rem;
+    object-fit: cover;
+}
+
+.statistic_group{
+    margin-top: 2.4rem;
+}
+
+.statistic_number p{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(180deg, #1D252D 0%, #1D252D 0%);
+    display: inline;
+}
+
+.statistic_support{
+    margin-top: 1rem;
+    font-size: 2.6rem;
+}
+
+.statistic_credit{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 2rem;
+}

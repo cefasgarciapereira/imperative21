@@ -8,8 +8,7 @@ export default function TheFacts(){
     return(
         <div className={styles.the_facts}>
             <img src={bg} className={styles.the_facts_image_container}/>
-            <span>Our Economic System is Broken.</span>
-            <h1>It’s Time To Reset Capitalism.</h1>
+            <h2>Shareholder Primacy Failed Us</h2>
             <div className={styles.button_container}>
                 <Button label='The Moment'/>
                 <Button label='The Facts' active/>
