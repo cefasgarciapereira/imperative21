@@ -30,7 +30,7 @@ export default function Modal(props){
                     <h2>Let's talk.</h2>
                     <p>Together we can work toward the new way of doing business.</p>
                 <form
-                action="https://formspree.io/FORM_ID"
+                action="https://formspree.io/xpzygvje"
                 method='POST'>
                     <input className={styles.form_control} style={{gridArea: 'a'}} type="text" name="first-name" placeholder="First Name *" required/>
                     <input className={styles.form_control} style={{gridArea: 'b'}} type="text" name="last-name" placeholder="Last Name *" required/>

@@ -1,11 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from './styles.module.css'
 
 export default function Button(props){
+    const [isHovering, setIsHovering] = useState(false)
+
     return (
         <button 
-        className={props.active ? styles.active_button : styles.button}
-        style={props.activeColor ? {color: props.activeColor} : {color: 'white'}}
+        onMouseEnter={() => setIsHovering(true)}
+        onMouseLeave={() => setIsHovering(false)}
+        className={styles.button}
+        style={isHovering ? {color: props.hoverColor} : {}}
         >
             {props.label}
         </button>
