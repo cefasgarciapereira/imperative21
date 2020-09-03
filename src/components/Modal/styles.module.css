@@ -1,0 +1,124 @@
+.modal{
+    background-color: #ff8d39;
+    padding: 6rem 1.7rem 2.4rem 1.7rem;
+}
+
+.modal_overlay{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.modal_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button{
+    font-size: 1.6rem;
+    padding: 1.2rem 32px;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 100px;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: .3s background-color;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.modal span{
+    font-size: 1.6rem;
+}
+
+.modal h2{
+    font-size: 4rem;
+}
+
+.modal p{
+    font-size: 2.6rem;
+}
+
+.form_control, .modal textarea{
+    width: 100%;
+    background-color: #ffa740;
+    border: 0;
+    font-size: 1.8rem;
+    height: 4rem;
+    padding: .8rem 1.2rem .6rem;
+    border-radius: 0;
+    outline: 0;
+    margin: .8rem 0;
+}
+
+.modal textarea{
+    height: 9rem;
+}
+
+.form_control::placeholder,.modal textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    font-weight: 100;
+}
+
+.close:hover{
+    cursor: pointer;
+}
+
+@media (min-width: 900px){
+    .close{
+        width: 4.2rem;
+        height: 4.2rem;
+        top: 10%;
+        right: 25%;
+    }
+
+    .modal{
+        background-color: #ff8d39;
+        padding: 7rem 8rem;
+        max-width: 40rem;
+    }
+
+    .modal span{
+        font-size: 2rem;
+    }
+    
+    .modal h2{
+        font-size: 6rem;
+    }
+    
+    .modal p{
+        font-size: 3.5rem;
+    }
+
+    .modal form{
+        display: grid;
+        grid-gap: 1.6rem 2.4rem;
+        gap: 1.6rem 5.4rem !important;
+        -ms-grid-columns: 1fr 2.4rem 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: auto 1.6rem auto 1.6rem auto 1.6rem auto 1.6rem auto;
+        grid-template-areas:
+            "a b"
+            "c c"
+            "d e"
+            "f f"
+            "g g";
+        text-align: left;
+    }
+}
