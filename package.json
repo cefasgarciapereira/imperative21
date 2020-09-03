@@ -16,7 +16,9 @@
   "dependencies": {
     "gatsby": "^2.24.50",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.11.0",
+    "react-modal": "^3.11.2"
   },
   "devDependencies": {
     "prettier": "2.1.0"
