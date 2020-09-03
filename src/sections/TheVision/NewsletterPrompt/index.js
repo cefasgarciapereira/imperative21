@@ -1,4 +1,5 @@
 import React from 'react'
+import Modal from '../../../components/Modal'
 import styles from './styles.module.css'
 
 export default function NewsletterPrompt(){
@@ -14,14 +15,14 @@ export default function NewsletterPrompt(){
                         <li>Manage with stakeholder governance</li>
                     </ul>
                     <p className={styles.footer_text}>Reach out for leadership tools, resources and partnership.</p>
-                    <button className={styles.button}>Get involved</button>
+                    <Modal label="Get Involved"/>
                 </div>
 
                 <div className={styles.right_group}>
                     <p className={styles.lead}>POLICYMAKERS</p>
                     <h5 className={styles.heading}>Build the foundation for a human-first economy</h5>
                     <p className={styles.footer_text}>Let's co-create the new rules for the new system together.</p>
-                    <button className={styles.button}>Get involved</button>
+                    <Modal label="Get Involved"/>
                 </div>
             </div>
         </div>
