@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../../components/Button'
 import ActiveButton from '../../components/ActiveButton'
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal/Fade'
 import styles from './styles.module.css'
 
 const bg = 'https://images.prismic.io/imperative-21/ae9d3667-df2d-4258-af08-e9f6914bfd0a_2.JPG?auto=compress,format'
