@@ -8,10 +8,14 @@ export default function ContentSection(){
     const animateValue = (start, end, duration) => {
         var range = end - start;
         var current = start;
-        var increment = 1000000;
+        var increment = 800000;
         var stepTime = Math.abs(Math.floor(duration / range));
         var timer = setInterval(function() {
-            current += increment;
+            if(current < end){
+                current += increment;
+            }else{
+                current = end;
+            }
             setCounter(current);
             if (current === end) {
                 clearInterval(timer);
@@ -19,15 +23,16 @@ export default function ContentSection(){
         }, stepTime);
     }
 
-    useEffect(() => animateValue(0,305000000,2000),[])
-
     const numberWithCommas = (x) => {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 
     return(
         <div>
-            <Fade bottom cascade>
+            <Fade 
+            bottom 
+            cascade
+            onReveal={() => animateValue(0,305000000,5000)}>
                 <div className={styles.content_section}>
                     <div className={styles.content_section_inner}>
                         <h2>
