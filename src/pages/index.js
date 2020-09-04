@@ -1,4 +1,5 @@
 import React from "react"
+import Header from '../components/Header'
 import Hero from '../sections/hero'
 import {default as Section1} from '../sections/hero/ContentSection'
 import TheFacts from '../sections/TheFacts'
@@ -24,6 +25,7 @@ export default function Home() {
 
   return(
     <div className={styles}>
+      <Header/>
       <Hero/>    
       <Section1/>
       <TheFacts/>

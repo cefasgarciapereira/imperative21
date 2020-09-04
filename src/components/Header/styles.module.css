@@ -1,0 +1,16 @@
+.header{
+    position: absolute;
+    top: 3.6rem;
+    width: 100vw;
+    height: auto;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h2{
+    font-size: 3.6rem;
+    color: white;
+}
