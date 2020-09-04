@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 import styles from './styles.module.css'
 const logo1 = 'https://images.prismic.io/imperative-21/d5b48824-336d-46a3-8f24-2084badc43f2_bLab.svg?auto=compress,format'
 const logo2 = 'https://images.prismic.io/imperative-21/8fdfe1d3-30ea-42ab-bc8d-ff717ed5d0d3_bteam.svg?auto=compress,format'
@@ -10,19 +11,21 @@ const logo6 = 'https://images.prismic.io/imperative-21/bd507e9a-a951-49f7-9746-7
 export default function LogoGrid(){
     return(
         <div className={styles.logo_grid}>
-            <div className={styles.logo_grid_inner}>
-                <h3 className={styles.heading}>Fouding Partners</h3>
-
-                <ul className={styles.logo_grid_list}>
-                    <li className={styles.logo_grid_item}><a><img src={logo1} alt="logo1"/></a></li>
-                    <li className={styles.logo_grid_item}><a><img src={logo2} alt="logo2"/></a></li>
-                    <li className={styles.logo_grid_item}><a><img src={logo3} alt="logo3"/></a></li>
-                    <li className={styles.logo_grid_item}><a><img src={logo4} alt="logo4"/></a></li>
-                    <li className={styles.logo_grid_item}><a><img src={logo5} alt="logo5"/></a></li>
-                    <li className={styles.logo_grid_item}><a><img src={logo6} alt="logo6"/></a></li>
-                </ul>
-
-            </div>
+            <Fade bottom cascade>
+                <div className={styles.logo_grid_inner}>
+                    <h3 className={styles.heading}>Fouding Partners</h3>
+                    <Fade bottom cascade>
+                        <ul className={styles.logo_grid_list}>
+                            <li className={styles.logo_grid_item}><a><img src={logo1} alt="logo1"/></a></li>
+                            <li className={styles.logo_grid_item}><a><img src={logo2} alt="logo2"/></a></li>
+                            <li className={styles.logo_grid_item}><a><img src={logo3} alt="logo3"/></a></li>
+                            <li className={styles.logo_grid_item}><a><img src={logo4} alt="logo4"/></a></li>
+                            <li className={styles.logo_grid_item}><a><img src={logo5} alt="logo5"/></a></li>
+                            <li className={styles.logo_grid_item}><a><img src={logo6} alt="logo6"/></a></li>
+                        </ul>
+                    </Fade>
+                </div>
+            </Fade>
         </div>
     )
 }
