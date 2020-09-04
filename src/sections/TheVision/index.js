@@ -11,7 +11,7 @@ export default function TheVision(){
     return(
         <div className={styles.the_vision} id="the_vision">
             <Fade clear>
-                <img src={bg} className={styles.the_vision_image_container}/>
+                <img src={bg} className={styles.the_vision_image_container} alt="The Vision Image"/>
             </Fade>
             <Fade cascade bottom>
                 <div>

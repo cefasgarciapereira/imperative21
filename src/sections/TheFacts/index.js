@@ -12,7 +12,7 @@ export default function TheFacts(){
         <Fade bottom cascade>
             <div className={styles.the_facts} id="the_facts">
                 <Fade clear duration={2000}>
-                    <img src={bg} className={styles.the_facts_image_container}/>
+                    <img src={bg} className={styles.the_facts_image_container} alt="The Facts Image"/>
                 </Fade>
                 <h2>Shareholder Primacy Failed Us</h2>
                 <div className={styles.button_container}>

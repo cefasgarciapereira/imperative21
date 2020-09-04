@@ -12,7 +12,7 @@ export default function Hero(){
     return(
         <div className={styles.hero} id='the_moment'>
             <Fade clear>
-                <img src={bg} className={styles.hero_image_container}/>
+                <img src={bg} className={styles.hero_image_container} alt="The Moment Image"/>
             </Fade>
             <Slide bottom>
                 <span>Our Economic System is Broken.</span>
