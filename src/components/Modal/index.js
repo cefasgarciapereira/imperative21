@@ -24,11 +24,11 @@ export default function Modal(props){
                 className={styles.modal}
                 overlayClassName={styles.modal_overlay}>
                     <div className={styles.modal_header}>
-                        <span>BUSINESS LEADERS</span>
+                    <span>{props.title}</span>
                         <IoMdClose size={24} className={styles.close} onClick={() => toggleModal()}/>
                     </div>
-                    <h2>Let's talk.</h2>
-                    <p>Together we can work toward the new way of doing business.</p>
+                    <h2>{props.call}</h2>
+                    <p>{props.message}</p>
                 <form
                 action="https://formspree.io/xpzygvje"
                 method='POST'>
@@ -38,7 +38,7 @@ export default function Modal(props){
                     <input className={styles.form_control} style={{gridArea: 'd'}} type="text" name="company" placeholder="Company *" required/>
                     <input className={styles.form_control} style={{gridArea: 'e'}} type="text" name="title" placeholder="Title *" required/>
                     <textarea type="text" name="message" style={{gridArea: 'f'}} placeholder="Message *" required></textarea>
-                    <input className={styles.button} type="submit" value="Submit"/>
+                    <input className={styles.button} type="submit" value="Enviar"/>
                 </form>
             </ReactModal>
         </div>

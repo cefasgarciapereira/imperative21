@@ -20,7 +20,11 @@ export default function NewsletterPrompt(){
                         </Fade>
                         <p className={styles.footer_text}>Entre em contato para saber mais sobre as 
                         ferramentas ou caso tenha interesse em fazer parcerias.</p>
-                        <Modal label="PARTICIPE"/>
+                        <Modal 
+                        title="LÍDERES EMPRESARIAIS"
+                        call="Vamos conversar."
+                        message="Juntos podemos trabalhar rumo à nova forma de fazer negócios."
+                        label="PARTICIPE"/>
                     </div>
                 </Fade>
 
@@ -31,7 +35,11 @@ export default function NewsletterPrompt(){
                         <Fade clear>
                             <p className={styles.footer_text}>Vamos co-criar as novas regras para o novo sistema juntos.</p>
                         </Fade>
-                        <Modal label="PARTICIPE"/>
+                        <Modal 
+                        title="FORMULADORES DE POLÍTICAS"
+                        call="Vamos conversar."
+                        message="Juntos, podemos construir a fundação de uma economia com o ser humano em primeiro lugar."
+                        label="PARTICIPE"/>
                     </div>
                 </Fade>
             </div>
