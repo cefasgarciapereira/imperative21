@@ -10,12 +10,12 @@ export default function ContentSection(){
                     <Fade bottom cascade>
                         <div className={styles.text_section}>
                                 <p>
-                                    The global health pandemic, economic crisis, and racial justice uprisings 
-                                    have revealed a deeper, more fundamental problem: An economic system that 
-                                    rewards maximizing wealth over wellbeing and prioritizing individualism over interdependence.
+                                    A pandemia global de saúde, a crise econômica e os protestos por justiça racial 
+                                    revelaram um problema mais profundo e fundamental: um sistema econômico que recompensa 
+                                    a maximização da riqueza acima do bem-estar e prioriza o individualismo à interdependência.
                                 </p>
                                 <h2>
-                                    Today we have an opportunity to reimagine and redesign what comes next.
+                                    Hoje, temos a oportunidade de reimaginar e redesenhar nosso futuro. 
                                 </h2>
                         </div>
                     </Fade>

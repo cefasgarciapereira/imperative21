@@ -10,51 +10,53 @@ export default function ContentSection(){
                     <Fade bottom cascade>
                         <div>
                             <p>
-                                To build a future where all people are able to work 
-                                with dignity and care for themselves and their loved 
-                                ones, where our planet is healthy and our economy thrives, 
-                                we must reimagine and redesign our economic system so that 
-                                it works for all of us today and for the long-term.
+                                Para construir um futuro onde todas as pessoas possam trabalhar com 
+                                dignidade e cuidar de si mesmas e de seus entes queridos, onde o nosso 
+                                planeta esteja saudável e a nossa economia prospere, precisamos reimaginar 
+                                e redesenhar nosso sistema econômico para que ele funcione para todos nós, 
+                                tanto hoje como no futuro.
                             </p>
                             
                             <h3>
-                                We envision a future where our society, our leaders 
-                                and our policies work together to create shared prosperity.
+                                Nós visualizamos um futuro onde nossa sociedade, nossos líderes e nossas 
+                                políticas públicas trabalham em conjunto para criar prosperidade compartilhada.
                             </h3>
                         </div>
                     </Fade>
 
                     <Fade bottom cascade>
                         <div>
-                            <h2>Future Society</h2>
+                            <h2>Sociedade do Futuro</h2>
                             <p>
-                                We see a culture that values our connection to each other, 
-                                our communities and the planet. As a result the most celebrated 
-                                and rewarded businesses and investors strive to serve all stakeholders all the time.
+                                Nós vislumbramos uma cultura que valoriza nossa ligação uns com os outros, 
+                                com nossas comunidades e com o planeta. Como resultado, as empresas e os investidores mais 
+                                celebrados e recompensados se esforçam para gerar valor para todas as partes interessadas o tempo todo.
                             </p>
                         </div>
                     </Fade>
 
                     <Fade bottom cascade>
                         <div>
-                            <h2>Future Leaders</h2>
+                            <h2>Líderes do Futuro</h2>
                             <p>
-                                We see an economy where business leaders and investors create long-term 
-                                value for all stakeholders based on credible common standards, structures
-                                and norms that align the interests of business, people and society.
+                                Nós vislumbramos uma economia em que líderes empresariais e 
+                                investidores criam valor no longo prazo para todas as partes interessadas 
+                                com base em padrões, estruturas e normas comuns confiáveis, que alinhem os 
+                                interesses das empresas, das pessoas e da sociedade.
                             </p>
                         </div>
                     </Fade>
 
                     <Fade bottom cascade>
                         <div>
-                            <h2>Future Policy</h2>
+                            <h2>Política do Futuro </h2>
                             <p>
-                                We see public policies that reward greater positive stakeholder impact, 
-                                and create an elevated level playing field in which all businesses and 
-                                financial institutions are responsible for their impact not only on financial returns, 
-                                but also for all stakeholders and the natural and social systems on which healthy markets 
-                                and all life depends.
+                                Nós vislumbramos políticas públicas que privilegiem um maior 
+                                impacto positivo para as partes interessadas e criam condições 
+                                de concorrência equitativas elevadas, nas quais todas as empresas e 
+                                instituições financeiras são responsáveis por seu impacto não só sobre 
+                                rendimento financeiro, mas também para todas as partes interessadas e os 
+                                sistemas naturais e sociais dos quais dependem mercados saudáveis e toda a vida.
                             </p>
                         </div>
                     </Fade>

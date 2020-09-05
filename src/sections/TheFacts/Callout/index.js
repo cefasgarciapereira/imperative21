@@ -7,10 +7,11 @@ export default function Callout(){
         <div className={styles.callout}>
             <Fade cascade clear>
                 <div className={styles.callout_inner}>
-                    <h2>Stakeholder Capitalism is Working</h2>
-                    <p>The top 20% of companies ranked by JUST Capital for stakeholder leadership 
-                        have outperformed the bottom 20% by 4.7% through the current bear market
-                        and the first signs of recovery.</p>
+                    <h2>O Capitalismo de Stakeholder está funcionando</h2>
+                    <p>20% das melhores empresas ranqueadas pela JUST Capital, 
+                        em termos de liderança de stakeholders, tiveram uma performance de 4,7% 
+                        acima do que as demais durante o atual período de baixa do mercado 
+                        ("bear market") e nos primeiros sinais de recuperação.</p>
                     <p className={styles.credit}>JUST Capital</p>
                 </div>
             </Fade>

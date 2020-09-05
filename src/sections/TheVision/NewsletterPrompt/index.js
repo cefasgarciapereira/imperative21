@@ -9,28 +9,29 @@ export default function NewsletterPrompt(){
             <div className={styles.newsletter_inner}>
                 <Fade bottom cascade>
                     <div className={styles.left_group}>
-                        <p className={styles.lead}>BUSINESS LEADERS</p>
-                        <h5 className={styles.heading}>Embody the new way of doing business.</h5>
+                        <p className={styles.lead}>LÍDERES EMPRESARIAIS</p>
+                        <h5 className={styles.heading}>Incorpore a nova forma de fazer negócios.</h5>
                         <Fade clear>
                             <ul>
-                                <li>Lead for the long-term</li>
-                                <li>Measure what matters</li>
-                                <li>Manage with stakeholder governance</li>
+                                <li>Lidere para o longo prazo</li>
+                                <li>Mensure o que importa</li>
+                                <li>Adote governança de stakeholders</li>
                             </ul>
                         </Fade>
-                        <p className={styles.footer_text}>Reach out for leadership tools, resources and partnership.</p>
-                        <Modal label="Get Involved"/>
+                        <p className={styles.footer_text}>Entre em contato para saber mais sobre as 
+                        ferramentas ou caso tenha interesse em fazer parcerias.</p>
+                        <Modal label="PARTICIPE"/>
                     </div>
                 </Fade>
 
                 <Fade bottom cascade>
                     <div className={styles.right_group}>
-                        <p className={styles.lead}>POLICYMAKERS</p>
-                        <h5 className={styles.heading}>Build the foundation for a human-first economy</h5>
+                        <p className={styles.lead}>FORMULADORES DE POLÍTICAS</p>
+                        <h5 className={styles.heading}>Construa as bases para uma economia com o humano em primeiro lugar</h5>
                         <Fade clear>
-                            <p className={styles.footer_text}>Let's co-create the new rules for the new system together.</p>
+                            <p className={styles.footer_text}>Vamos co-criar as novas regras para o novo sistema juntos.</p>
                         </Fade>
-                        <Modal label="Get Involved"/>
+                        <Modal label="PARTICIPE"/>
                     </div>
                 </Fade>
             </div>

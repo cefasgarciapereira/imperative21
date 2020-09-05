@@ -11,19 +11,19 @@ export default function TheVision(){
     return(
         <div className={styles.the_vision} id="the_vision">
             <Fade clear>
-                <img src={bg} className={styles.the_vision_image_container} alt="The Vision Image"/>
+                <img src={bg} className={styles.the_vision_image_container} alt="A Visão"/>
             </Fade>
             <Fade cascade bottom>
                 <div>
-                    <h2>Shareholder Primacy Failed Us</h2>
+                    <h2>O futuro é para todos nós</h2>
                     <div className={styles.button_container}>
                         <AnchorLink href='#the_moment'>
-                            <Button label='The Moment' hoverColor='#ff8d39'/>
+                            <Button label='O Momento' hoverColor='#ff8d39'/>
                         </AnchorLink>
                         <AnchorLink href='#the_facts'>
-                            <Button label='The Facts' hoverColor='#ff8d39'/>
+                            <Button label='Os Fatos' hoverColor='#ff8d39'/>
                         </AnchorLink>
-                        <ActiveButton label="The Vision" color='#ff8d39'/>
+                        <ActiveButton label="A Visão" color='#ff8d39'/>
                     </div>
                 </div>
             </Fade>

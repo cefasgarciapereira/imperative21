@@ -36,9 +36,10 @@ export default function ContentSection(){
                 <div className={styles.content_section}>
                     <div className={styles.content_section_inner}>
                         <h2>
-                            The fact is our economy will never live up to its full
-                            potential for people and the planet in a system with 
-                            misaligned incentives and a culture with contrary norms.
+                            O fato é que nossa economia nunca estará funcionando 
+                            em seu pleno potencial de geração de valor para as pessoas 
+                            e para o planeta em um sistema em que os incentivos e a cultura 
+                            vigente não estão alinhados a uma visão mais sustentável.
                         </h2>
                     </div>
                 </div>
@@ -47,11 +48,12 @@ export default function ContentSection(){
                         <div>
                             <span className={styles.number_counter_number}>{numberWithCommas(counter)}</span>
                             <br/>
-                            <span className={styles.number_counter_support}>unemployed</span>
+                            <span className={styles.number_counter_support}>desempregados</span>
                         </div>
                         <div className={styles.number_counter_group}>
-                            <p className={styles.number_counter_body}>An estimated 305 million more full time workers will be out of work in the 2nd quarter of 2020.</p>
-                            <p className={styles.number_counter_credit}>International Labour <br/> Organization <br/> May 17, 2020</p>
+                            <p className={styles.number_counter_body}>Estima-se que mais 305 milhões de trabalhadores em 
+                            tempo integral estarão desempregados no segundo trimestre de 2020.</p>
+                            <p className={styles.number_counter_credit}>Organização Internacional Do Trabalho <br/> 17 de maio de 2020</p>
                         </div>
                     </div>
                 </div>

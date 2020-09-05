@@ -7,19 +7,20 @@ export default function BannerStat(){
             <div className={styles.money_stack_inner}>  
                 <div className={styles.statistic_group}>
                     <div className={styles.statistic_number}>
-                        <p>“Climate change is the greatest long-term threat</p>
+                        <p>“As mudanças climáticas são a maior ameaça a longo prazo</p>
                     </div>
                     <div className={styles.statistic_support}>
-                        faced by humanity. All countries will be affected, but the poorest countries will be hit hardest. 
-                        The cost of inaction far outweigh the costs of action.”
+                        já enfrentada pela humanidade. Todos os países serão afetados, 
+                        mas os mais pobres serão os mais duramente atingidos. 
+                        O custo da inação ultrapassa em muito os custos da ação.”
                     </div>
 
                     <div className={styles.statistic_credit}>
                         David Miliband
                         <br/>
-                        International Rescue Committee
+                        Comitê Internacional de Resgate
                         <br/>
-                        and former British Member of Parliament
+                        e ex-parlamentar britânico
                     </div>
                 </div>
             </div>

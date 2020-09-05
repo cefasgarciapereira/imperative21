@@ -27,6 +27,7 @@ html, body, * {
     overflow-x: hidden;
     font-family: Calibre,Helvetica Neue,Helvetica,sans-serif;
     font-size: 62.5%;
+    color: #1D252D;
 }
 
 div, ul{

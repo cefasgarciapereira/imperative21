@@ -13,7 +13,7 @@ export default function LogoGrid(){
         <div className={styles.logo_grid}>
             <Fade bottom cascade>
                 <div className={styles.logo_grid_inner}>
-                    <h3 className={styles.heading}>Fouding Partners</h3>
+                    <h3 className={styles.heading}>Sócios Fundadores</h3>
                     <Fade bottom cascade>
                         <ul className={styles.logo_grid_list}>
                             <li className={styles.logo_grid_item}><a><img src={logo1} alt="logo1"/></a></li>

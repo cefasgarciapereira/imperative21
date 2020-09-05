@@ -10,15 +10,16 @@ export default function StatisticPeople(){
                     <Fade cascade bottom>
                         <div className={styles.statistic_group}>
                             <p className={styles.statistic_support}>
-                                "COVID really lays out the limits of thinking of people as solely 
-                                interchangeable units and not as human beings, treating them with 
-                                dignity and respect as an integral part of the production enterprise"
+                                "A Pandemia de COVID19 escancarou o pensamento das 
+                                pessoas sendo vistas como mercadorias e não como seres 
+                                humanos, tratados com dignidade, respeito e como parte 
+                                integrante dos ativos da empresa"
                             </p>
                             <img src={people}></img>
                             <p className={styles.statistic_credit}>
-                                Rebecca Henderson, Harvard Business School professor
+                                Rebecca Henderson, professora na Harvard Business School
                                 <br/>
-                                and author of “Reimagining Capitalism in a World on Fire”
+                                e autora de “Reimagining Capitalism in a World on Fire”
                             </p>
                         </div>
                 </Fade>

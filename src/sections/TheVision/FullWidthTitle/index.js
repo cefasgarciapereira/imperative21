@@ -8,7 +8,7 @@ export default function FullWidthTitle(){
             <div className={styles.content_section}>
                 <div className={styles.content_section_inner}>
                     <div className={styles.text_section}>
-                        <h2>The Time For Action Is Now</h2>
+                        <h2>O momento de agir é agora!</h2>
                     </div>
                 </div>
             </div>

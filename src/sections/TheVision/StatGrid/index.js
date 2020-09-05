@@ -10,29 +10,29 @@ export default function StatGrid(){
                     <Fade bottom cascade>
                         <ul className={styles.stat_list}>
                             <li>
-                                <h4>72,000+</h4>
-                                <p>businesses across 80 countries and 150 industries</p>
+                                <h4>+ de 72,000</h4>
+                                <p>empresas em 80 países e 150 indústrias</p>
                             </li>
                             <li>
-                                <h4>18+ Million</h4>
-                                <p>employees</p>
+                                <h4>+ de 18 Milhões</h4>
+                                <p>de funcionários</p>
                             </li>
                             <li>
-                                <h4>6.6+ Trillion</h4>
-                                <p>in revenues</p>
+                                <h4>+ de US$ 6,6 trilhões</h4>
+                                <p>em receitas</p>
                             </li>
                             <li>
-                                <h4>15+ Trillion</h4>
-                                <p>in assets under management</p>
+                                <h4>+ de US$ 15 trilhões</h4>
+                                <p>em ativos sob gestão</p>
                             </li>
                         </ul>
                     </Fade>
 
                     <Fade bottom cascade>
                         <div className={styles.post_grid}>
-                            <h4>Hundreds of Millions</h4>
+                            <h4>Centenas de milhões</h4>
                             <p>
-                                of people like you eager to vote every day with their purchases, investments, and employment decisions
+                                de pessoas como você ansiosas para votarem todos os dias com suas compras, investimentos e decisões de trabalho
                             </p>
                         </div>
                     </Fade>

@@ -12,16 +12,17 @@ export default function TheFacts(){
         <Fade bottom cascade>
             <div className={styles.the_facts} id="the_facts">
                 <Fade clear duration={2000}>
-                    <img src={bg} className={styles.the_facts_image_container} alt="The Facts Image"/>
+                    <img src={bg} className={styles.the_facts_image_container} alt="Os Fatos"/>
                 </Fade>
-                <h2>Shareholder Primacy Failed Us</h2>
+                
+                <h2>Precisamos gerar valor para todos os stakeholders, não apenas aos acionistas.</h2>
                 <div className={styles.button_container}>
                     <AnchorLink href='#the_moment'>
-                    <Button label='The Moment' hoverColor='#545c5e'/>
+                    <Button label='O Momento' hoverColor='#545c5e'/>
                     </AnchorLink>
-                    <ActiveButton label="The Facts" color='#545c5e'/>
+                    <ActiveButton label="Os fatos" color='#545c5e'/>
                     <AnchorLink href='#the_vision'>
-                        <Button label='The Vision' hoverColor='#545c5e'/>
+                        <Button label='A Visão' hoverColor='#545c5e'/>
                     </AnchorLink>
                 </div>
             </div>

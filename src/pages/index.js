@@ -33,18 +33,17 @@ export default function Home() {
       <TheFacts/>
       <Section2/>
       <SimpleStat
-      prefix="26 individuals own"
-      firstLine="more wealth than"
-      secondLine="half of humanity"
+      prefix="26 indivíduos concentram"
+      firstLine="metade da riqueza"
+      secondLine="de toda a humanidade"
       credit="Oxfam 2019"
       />
       <MoneyStack/>
       <SimpleStat
-      prefix="The median family wealth
-      for white people in the US is"
-      firstLine="10x higher than it"
-      secondLine="is for Black people"
-      credit="United States Federal Reserve System, 2016"
+      prefix="O patrimônio familiar médio dos brancos nos EUA é"
+      firstLine="10x maior que o dos negros"
+      secondLine="10x mais alta do que para os negros"
+      credit="Sistema de Reserva Federal dos Estados Unidos, 2016"
       />
       <BannerStat/>
       <StatisticPeople/>
@@ -53,7 +52,7 @@ export default function Home() {
       <TheVisionContentSection/>
       <TheVisionCallout/>
       <FullWidthTitle/>
-      <TwitterShare/>
+      {/*<TwitterShare/>*/}
       <NewsletterPrompt/>
       <TheVisionContentSection2/>
       <LogoGrid/>

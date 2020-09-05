@@ -12,17 +12,18 @@ export default function MoneyStack(){
 
                     <div className={styles.statistic_group}>
                         <div className={styles.statistic_number}>
-                            <p>94% of US</p>
+                            <p>Nos últimos 15 anos</p>
                             <br/>
-                            <p>companies' profits</p>
+                            <p>94% dos lucros</p>
                         </div>
                         <div className={styles.statistic_support}>
-                            have been devoted to executives and shareholders, 
-                            instead of workers, through buybacks and dividends over the last 15 years
+                        das empresas dos EUA foram dedicados, por meio de 
+                        recompras e dividendos, a executivos e acionistas, 
+                        em vez de trabalhadores
                         </div>
 
                         <div className={styles.statistic_credit}>
-                            Roosevelt Institute
+                            Instituto Roosevelt
                         </div>
                     </div>
                 </div>

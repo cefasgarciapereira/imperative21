@@ -7,11 +7,11 @@ export default function Callout(){
         <div className={styles.callout}>
             <Fade cascade clear>
                 <div className={styles.callout_inner}>
-                    <h2>“The future is not some place we are going to, but one we are creating.”</h2>
+                    <h2>“O futuro não é um lugar para onde vamos, e sim um lugar que estamos criando.”</h2>
                     <p className={styles.credit}>
-                        The late John Schaar 
+                        O falecido John Schaar 
                         <br/>
-                        Professor Emeritus at the University of California, Santa Cruz
+                        Professor Emérito da Universidade da Califórnia, Santa Cruz
                     </p>
                 </div>
             </Fade>

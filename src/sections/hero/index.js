@@ -12,20 +12,20 @@ export default function Hero(){
     return(
         <div className={styles.hero} id='the_moment'>
             <Fade clear>
-                <img src={bg} className={styles.hero_image_container} alt="The Moment Image"/>
+                <img src={bg} className={styles.hero_image_container} alt="O momento"/>
             </Fade>
             <Slide bottom>
-                <span>Our Economic System is Broken.</span>
+                <span>Nosso Sistema Econômico Ruiu.</span>
             </Slide>
             <Fade bottom>
-                <h1>It’s Time To Reset Capitalism.</h1>
+                <h1>É hora de Redefinir o Capitalismo.</h1>
                 <div className={styles.button_container}>
-                    <ActiveButton label="The Moment" color='#0058e0'/>
+                    <ActiveButton label="O Momento" color='#0058e0'/>
                     <AnchorLink href='#the_facts'>
-                        <Button label='The Facts' hoverColor='#0058e0'/>
+                        <Button label='Os Fatos' hoverColor='#0058e0'/>
                     </AnchorLink>
                     <AnchorLink href='#the_vision'>
-                        <Button label='The Vision' hoverColor='#0058e0'/>
+                        <Button label='A Visão' hoverColor='#0058e0'/>
                     </AnchorLink>
                 </div>
             </Fade>
