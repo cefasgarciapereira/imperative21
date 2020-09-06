@@ -21,7 +21,8 @@
     font-weight: 600;
     color: white;
     background: linear-gradient(180deg, #1D252D 0%, #1D252D 0%);
-    display: inline;
+    display: inline-flex;
+    padding: .2rem;
 }
 
 .statistic_support{

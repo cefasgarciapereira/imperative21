@@ -11,6 +11,7 @@
 
 .text_section h2{
     font-size: 3.6rem;
+    text-transform: capitalize;
 }
 
 @media (min-width: 600px){

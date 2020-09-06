@@ -11,7 +11,9 @@
 
 .content_section h2{
     font-size: 2.6rem;
+    font-weight: 500;
     margin: 60px 0;
+    line-height: 1.2;
 }
 
 .number_counter{
@@ -28,15 +30,18 @@
 .number_counter_number{
     font-size: 5.8rem;
     background-color: #222;
+    display: inline;
     color: white;
     font-weight: bold;
+    padding: 5rem .5rem 0 .5rem;
 }
 
 .number_counter_support{
     font-size: 4.5rem;
     color: white;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px #1E252D;
     text-align: left;
+    line-height: 1.5;
 }
 
 .number_counter_group{
@@ -46,6 +51,7 @@
 .number_counter_body{
     font-size: 1.9rem;
     max-width: 250px;
+    font-weight: 300;
 }
 
 .number_counter_credit{

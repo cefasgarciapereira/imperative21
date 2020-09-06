@@ -45,7 +45,7 @@ export default function ContentSection(){
                 </div>
                 <div className={styles.number_counter}>
                     <div className={styles.number_counter_inner}>
-                        <div>
+                        <div style={{display: 'felx', justifyContent: 'space-around'}}>
                             <span className={styles.number_counter_number}>{numberWithCommas(counter)}</span>
                             <br/>
                             <span className={styles.number_counter_support}>desempregados</span>

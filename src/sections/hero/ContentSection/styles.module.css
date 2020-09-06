@@ -17,6 +17,8 @@
 
 .content_section p{
     font-size: 1.9rem;
+    line-height: 1.2;
+    font-weight: 100;
 }
 
 .content_section h2{
@@ -24,6 +26,7 @@
     font-weight: 600;
     margin-top: 35px;
     overflow: hidden;
+    line-height: 1.2;
 }
 
 @media (min-width: 600px){

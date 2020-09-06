@@ -22,6 +22,7 @@
     color: white;
     background: linear-gradient(180deg, #1D252D 0%, #1D252D 0%);
     display: inline;
+    padding: .2rem;
 }
 
 .statistic_support{

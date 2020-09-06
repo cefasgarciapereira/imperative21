@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Calibre';
-    src:  url('../../static/fonts/Calibre-RegularItalic.woff2') format('woff2');
+    src:  url('../../static/fonts/Calibre-Regular.woff2') format('woff2');
     font-weight: 300;
 }
 
@@ -28,12 +28,14 @@ html, body, * {
     font-family: Calibre,Helvetica Neue,Helvetica,sans-serif;
     font-size: 62.5%;
     color: #1D252D;
+    padding: 0;
 }
 
 div, ul{
     overflow: hidden;
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3,h4,h5, p, span{
     overflow: hidden;
+    line-height: 1;
 }
