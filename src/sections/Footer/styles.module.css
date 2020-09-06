@@ -1,5 +1,4 @@
 .footer{
-    background-color: #ff8d39;
     padding: 5.7rem 0;
 }
 
@@ -58,13 +57,17 @@
 .footer_copyright{
     display: flex;
 }
-.footer_copyright p, .footer_copyright span{
+.footer_copyright p, .footer_copyright a{
     font-size: 1.8rem;
     margin: 5px;
 }
 
+.footer_list :not(:first-child) {
+    margin-left: 2rem;
+}
+
 @media (min-width: 600px){
-    .footer__inner {
+    .footer_inner {
         padding-left: 6.4rem;
         padding-right: 6.4rem;
     }

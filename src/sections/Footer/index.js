@@ -3,9 +3,9 @@ import styles from './styles.module.css'
 import Fade from 'react-reveal/Fade'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-export default function Footer(){
+export default function Footer(props){
     return(
-        <div className={styles.footer}>
+        <div className={styles.footer} style={props.backgroundColor ? {backgroundColor: props.backgroundColor} : {backgroundColor: '#ff8d39'} }>
             <Fade clear cascade>
                 <div className={styles.footer_inner}>
                     <p className={styles.footer_message}>
@@ -30,7 +30,7 @@ export default function Footer(){
                     <em className={styles.footer_thanks}>Nossos agradecimentos à Fundação Ford e à Fundação Skoll por seu apoio catalisador.</em>
                     
                     <div className={styles.footer_copyright}>
-                        <p>©2020</p> <span>Privacidade</span>
+                        <p>©2020</p> <a href="/privacy">Privacidade</a>
                     </div>
                 </div>
             </Fade>
