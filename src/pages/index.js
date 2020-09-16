@@ -18,6 +18,7 @@ import TwitterShare from '../sections/TheVision/TwitterShare'
 import NewsletterPrompt from '../sections/TheVision/NewsletterPrompt'
 import {default as TheVisionContentSection2} from '../sections/TheVision/ContentSection2'
 import LogoGrid from '../sections/TheVision/LogoGrid'
+import LogoGridBR from '../sections/TheVision/LogoGridBR'
 import StatGrid from '../sections/TheVision/StatGrid'
 import Footer from '../sections/Footer'
 import styles from './index.module.css'
@@ -56,6 +57,7 @@ export default function Home() {
       <TheVisionCallout/>
       {/*<TwitterShare/>*/}
       <LogoGrid/>
+      <LogoGridBR/>
       <StatGrid/>
       <Footer/>
     </div>
