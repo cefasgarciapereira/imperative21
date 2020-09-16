@@ -12,18 +12,16 @@ export default function MoneyStack(){
 
                     <div className={styles.statistic_group}>
                         <div className={styles.statistic_number}>
-                            <p>Nos últimos 15 anos</p>
+                            <p>Em 2019</p>
                             <br/>
-                            <p>94% dos lucros</p>
+                            <p>1% da população</p>
                         </div>
                         <div className={styles.statistic_support}>
-                        das empresas dos EUA foram dedicados, por meio de 
-                        recompras e dividendos, a executivos e acionistas, 
-                        em vez de trabalhadores
+                            ganhava quase 34 vezes mais que metade de menor rendimento.
                         </div>
 
                         <div className={styles.statistic_credit}>
-                            Instituto Roosevelt
+                            IBGE
                         </div>
                     </div>
                 </div>

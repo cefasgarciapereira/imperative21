@@ -40,10 +40,10 @@ export default function Home() {
       />
       <MoneyStack/>
       <SimpleStat
-      prefix="O patrimônio familiar médio dos brancos nos EUA é"
-      firstLine="10x maior que o dos negros"
-      secondLine="10x mais alta do que para os negros"
-      credit="Sistema de Reserva Federal dos Estados Unidos, 2016"
+      prefix="O rendimento dos homens (R$ 2.555)"
+      firstLine="é 28,7% maior que o"
+      secondLine="das mulheres (R$ 1.985)"
+      credit="IBGE"
       />
       <BannerStat/>
       <StatisticPeople/>
