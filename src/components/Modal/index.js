@@ -32,12 +32,12 @@ export default function Modal(props){
                 <form
                 action="https://formspree.io/moqkgngk"
                 method='POST'>
-                    <input className={styles.form_control} style={{gridArea: 'a'}} type="text" name="first-name" placeholder="First Name *" required/>
-                    <input className={styles.form_control} style={{gridArea: 'b'}} type="text" name="last-name" placeholder="Last Name *" required/>
-                    <input className={styles.form_control} style={{gridArea: 'c'}} type="text" name="email" placeholder="Email Address *" required/>
-                    <input className={styles.form_control} style={{gridArea: 'd'}} type="text" name="company" placeholder="Company *" required/>
-                    <input className={styles.form_control} style={{gridArea: 'e'}} type="text" name="title" placeholder="Title *" required/>
-                    <textarea type="text" name="message" style={{gridArea: 'f'}} placeholder="Message *" required></textarea>
+                    <input className={styles.form_control} style={{gridArea: 'a'}} type="text" name="first-name" placeholder="Nome *" required/>
+                    <input className={styles.form_control} style={{gridArea: 'b'}} type="text" name="last-name" placeholder="Sobrenome *" required/>
+                    <input className={styles.form_control} style={{gridArea: 'c'}} type="text" name="email" placeholder="E-mail" required/>
+                    <input className={styles.form_control} style={{gridArea: 'd'}} type="text" name="company" placeholder="Empresa *" required/>
+                    <input className={styles.form_control} style={{gridArea: 'e'}} type="text" name="title" placeholder="Título *" required/>
+                    <textarea type="text" name="message" style={{gridArea: 'f'}} placeholder="Mensagem *" required></textarea>
                     <input className={styles.button} type="submit" value="Enviar"/>
                 </form>
             </ReactModal>

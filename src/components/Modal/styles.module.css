@@ -1,6 +1,7 @@
 .modal{
     background-color: #ff8d39;
     padding: 6rem 1.7rem 2.4rem 1.7rem;
+    overflow: auto;
 }
 
 .modal_overlay{
@@ -92,6 +93,7 @@
         background-color: #ff8d39;
         padding: 7rem 8rem;
         max-width: 40rem;
+        max-height: 80vh;
     }
 
     .modal span{
