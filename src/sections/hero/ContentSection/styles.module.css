@@ -29,6 +29,11 @@
     line-height: 1.2;
 }
 
+.video{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
 @media (min-width: 600px){
     .content_section_inner {
         padding-left: 6.4rem;

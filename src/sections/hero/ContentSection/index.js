@@ -2,12 +2,18 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import styles from './styles.module.css'
 
+const video = require('../../../../static/coalisao_brasil/imperative21br.mp4')
+
+
 export default function ContentSection(){
     return(
         <div>
             <div className={styles.content_section}>
                 <div className={styles.content_section_inner}>
                     <Fade bottom cascade>
+                        <video className={styles.video} controls>
+                            <source src={video}/>
+                        </video>
                         <div className={styles.text_section}>
                                 <p>
                                     A pandemia global de saúde, a crise econômica e os protestos por justiça racial 
