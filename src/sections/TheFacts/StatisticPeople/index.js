@@ -15,7 +15,7 @@ export default function StatisticPeople(){
                                 humanos, tratados com dignidade, respeito e como parte 
                                 integrante dos ativos da empresa"
                             </p>
-                            <img src={people}></img>
+                            <img src={people} alt="People illustration"></img>
                             <p className={styles.statistic_credit}>
                                 Rebecca Henderson, professora na Harvard Business School
                                 <br/>

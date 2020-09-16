@@ -30,7 +30,6 @@ export default function ContentSection2(){
                             <li>Uma terceira está administrando um processo global para co-criar um conjunto de 
                                 "imperativos para a mudança do sistema econômico” que dão à nossa comunidade de aliados maior coerência e poder.</li>
                         </ul>
-
                     </div>
                 </Fade>
             </div>

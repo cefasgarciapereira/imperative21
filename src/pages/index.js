@@ -50,11 +50,11 @@ export default function Home() {
       <Callout/>
       <TheVision/>
       <TheVisionContentSection/>
-      <TheVisionCallout/>
-      <FullWidthTitle/>
-      {/*<TwitterShare/>*/}
-      <NewsletterPrompt/>
       <TheVisionContentSection2/>
+      <FullWidthTitle/>
+      <NewsletterPrompt/>
+      <TheVisionCallout/>
+      {/*<TwitterShare/>*/}
       <LogoGrid/>
       <StatGrid/>
       <Footer/>
