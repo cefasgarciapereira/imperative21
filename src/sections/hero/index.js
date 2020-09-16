@@ -15,10 +15,10 @@ export default function Hero(){
                 <img src={bg} className={styles.hero_image_container} alt="O momento"/>
             </Fade>
             <Slide bottom>
-                <span>Nosso Sistema Econômico Ruiu.</span>
+                <span>Nosso sistema econômico ruiu.</span>
             </Slide>
             <Fade bottom>
-                <h1>É hora de Redefinir o Capitalismo.</h1>
+                <h1>É hora de redefinir o capitalismo.</h1>
                 <div className={styles.button_container}>
                     <ActiveButton label="O Momento" color='#0058e0'/>
                     <AnchorLink href='#the_facts'>
