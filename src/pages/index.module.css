@@ -1,31 +1,7 @@
-@font-face {
-    font-family: 'Calibre';
-    src:  url('../../static/fonts/Calibre-Regular.woff2') format('woff2');
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src:  url('../../static/fonts/Calibre-Regular.woff2') format('woff2') format('woff2');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('../../static/fonts/Calibre-Medium.woff') format('woff');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src:  url('../../static/fonts/Calibre-Bold.woff') format('woff');
-    font-weight: 700;
-}
-
 html, body, * {
     margin: 0;
     overflow-x: hidden;
-    font-family: Calibre,Helvetica Neue,Helvetica,sans-serif;
+    font-family: Helvetica Neue,Helvetica,sans-serif;
     font-size: 62.5%;
     color: #1D252D;
     padding: 0;
