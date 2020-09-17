@@ -27,7 +27,7 @@ export default function LogoGridBR(){
                         <ul className={styles.logo_grid_list}>
                             <li className={styles.logo_grid_item}><a><img src={logo_bbb} alt="Logo Brasil Bolsa Balcão"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_ethos}  alt="Logo Brasil Bolsa Balcão"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo_paco_global} style={{width: '90%'}} alt="Logo Paco Global"/></a></li>
+                            <li className={styles.logo_grid_item}><a><img src={logo_paco_global} style={{width: '90%'}} alt="Logo Pacto Global"/></a></li>
                         </ul>
                     </Fade>
                 </div>
