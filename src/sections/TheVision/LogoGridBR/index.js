@@ -15,7 +15,7 @@ export default function LogoGridBR(){
                     <h3 className={styles.heading}>Realização</h3>
                     <Fade bottom cascade>
                         <ul className={styles.logo_grid_list}>
-                            <li className={styles.logo_grid_item}><a><img src={logo_sistema_b} style={{alignSelf: 'left'}} alt="Logo Sistema B"/></a></li>
+                            <li className={styles.logo_grid_item}><a><img src={logo_sistema_b} style={{width: '75%'}} alt="Logo Sistema B"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_capitalismo_consciente} alt="Logo Capitalismo Consciente"/></a></li>
                         </ul>
                     </Fade>
