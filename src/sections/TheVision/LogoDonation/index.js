@@ -23,7 +23,7 @@ export default function LogoDonation(){
                             <li className={styles.logo_grid_item}><a><img src={logo_all_set} alt="Logo All Set"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_avante} alt="Logo Avante"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_az_quest} alt="Logo AZ Quest"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo_bresco} alt="Logo Bresco"/></a></li>
+                            <li className={styles.logo_grid_item}><a><img src={logo_bresco} style={{marginLeft: '3rem', width: '80%'}} alt="Logo Bresco"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_dengo} alt="Logo Dengo"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_fama} alt="Logo Fama"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_grupo_gaia} style={{width: '70%'}} alt="Logo Grupo Gaia"/></a></li>
