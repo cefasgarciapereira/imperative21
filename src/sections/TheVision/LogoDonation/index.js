@@ -10,6 +10,7 @@ const logo_grupo_gaia = require('../../../../static/coalisao_brasil/grupo_gaia.p
 const logo_reserva = require('../../../../static/coalisao_brasil/reserva.png')
 const logo_wright_capital = require('../../../../static/coalisao_brasil/wright_capital.png')
 const logo_bresco = require('../../../../static/coalisao_brasil/bresco.svg')
+const logo_sitawi = require ('../../../../static/coalisao_brasil/sitawi.png')
 
 
 export default function LogoDonation(){
@@ -28,6 +29,7 @@ export default function LogoDonation(){
                             <li className={styles.logo_grid_item}><a><img src={logo_fama} alt="Logo Fama"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_grupo_gaia} style={{width: '70%'}} alt="Logo Grupo Gaia"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_reserva} alt="Logo Reserva"/></a></li>
+                            <li className={styles.logo_grid_item}><a><img src={logo_sitawi} style={{width: '70%', marginLeft: '1.5rem'}} alt="Logo Sitawi"/></a></li>
                             <li className={styles.logo_grid_item}><a><img src={logo_wright_capital} alt="Logo Wright Capital"/></a></li>
                         </ul>
                     </Fade>
