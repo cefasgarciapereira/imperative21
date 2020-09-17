@@ -39,6 +39,17 @@ export default function ContentSection2(){
                             a oportunidades seguras e justas no mercado.
                         </p>
 
+                        <h4>Ferramentas</h4>
+
+                        <ul>
+                            <li>Junte-se a milhares de empresas em todo o mundo tomando medidas significativas para os Objetivos de 
+                                Desenvolvimento Sustentável. <a href="https://app.bimpactassessment.net/get-started/sdg-action-manager">Use o SDG Action Manager</a> </li>
+                            <li>
+                                Torne-se um embaixador do Capitalismo Consciente Brasil e associe sua empresa à comunidade de empresas do 
+                                CC. <a href="http://ccbrasil.cc/associacao">Quero me associar agora</a>.
+                            </li>
+                        </ul>
+
                         <h3>Invista em mudanças estruturais</h3>
 
                         <p>
@@ -48,10 +59,13 @@ export default function ContentSection2(){
                             para aqueles atualmente marginalizados.
                         </p>
 
+                        <h4>Ferramentas</h4>
+
                         <ul>
-                            <li>Torne-se um líder responsável por justiça, equidade, diversidade e inclusão ao lado da comunidade de Empresas B: 
-                                Comprometa-se a ser uma empresa antirracista</li>
-                            <li>Leia o guia do B Lab de ação empresarial por justiça, equidade, diversidade e inclusão durante a COVID-19</li>
+                            <li><a href="https://covida20.com.br/">Invista no CoVida20</a> - o programa de financiamento exclusivo para manter vivas as sementes da Nova Economia.</li>
+                            <li><a href="https://sejaantirracista.org/">Seja Antirracista</a> - comprometimento público de pessoas e empresas que entendem que vidas negras importam. 
+                                E mais do que não ser racista, é preciso ser antirracista e ter práticas antirracistas no dia-a-dia, no 
+                                enfrentamento ao racismo estrutural e institucional.</li>
                         </ul>
 
                         <h3>Considere todas as partes interessadas</h3>
@@ -61,6 +75,14 @@ export default function ContentSection2(){
                             para todos os stakeholders; criar incentivos que recompensem negócios e investimentos criando valor social e ambiental; 
                             e aprimorar os padrões do dever fiduciário.
                         </p>
+
+                        <h4>Ferramentas</h4>
+                            <ul>
+                                <li>A Avaliação de Impacto B é usada para medir e gerenciar o impacto da sua empresa sobre todos os stakeholders com o mesmo 
+                                    rigor com que você mede e gerencia seus lucros. <a href="https://bimpactassessment.net/">Acesse agora!</a></li>
+                                <li>Seja um negócio que torna o mundo um lugar melhor. A Pesquisa Humanizadas do Brasil ajudam a elevar a humanidade 
+                                    através da maneira como a sua organização faz negócios. <a href="http://humanizadas-7798874.hs-sites.com/inscricao-humanizadas">Quero participar da pesquisa</a></li>
+                            </ul>
                     </div>
                 </Fade>
             </div>

@@ -28,7 +28,7 @@
 }
 
 .number_counter_number{
-    font-size: 5.8rem;
+    font-size: 5rem;
     background-color: #222;
     display: inline;
     color: white;
@@ -37,7 +37,7 @@
 }
 
 .number_counter_support{
-    font-size: 4.5rem;
+    font-size: 4rem;
     color: white;
     -webkit-text-stroke: 1px #1E252D;
     text-align: left;

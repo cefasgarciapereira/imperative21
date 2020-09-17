@@ -11,7 +11,7 @@ export default function ContentSection(){
             <div className={styles.content_section}>
                 <div className={styles.content_section_inner}>
                     <Fade bottom cascade>
-                        <video className={styles.video} controls>
+                        <video className={styles.video} controls autoPlay muted>
                             <source src={video}/>
                         </video>
                         <div className={styles.text_section}>

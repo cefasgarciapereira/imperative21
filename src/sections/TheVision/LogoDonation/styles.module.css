@@ -50,16 +50,18 @@
     }
 
     .logo_grid_list {
-        display: grid;
+        display: inline-grid;
         -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-row-gap: 3.2rem;
         row-gap: 3.2rem;
+        align-items: center;
+        justify-items: center;
     }
 
     .logo_grid_item{
         width: 18rem;
-        padding: 1rem;
+        margin: 0 .2rem;
     }
 
     .heading{
