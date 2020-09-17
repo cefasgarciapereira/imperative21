@@ -1,5 +1,4 @@
 .logo_grid {
-    padding-top: 5rem;
 }
 
 .logo_grid_inner {
@@ -45,9 +44,6 @@
 }
 
 @media (min-width: 900px){
-    .logo_grid {
-        padding-top: 10rem;
-    }
 
     .logo_grid_list {
         display: grid;
