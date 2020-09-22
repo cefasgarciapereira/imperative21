@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-.modal span{
+.modal span, .modal a{
     font-size: 1.6rem;
 }
 
@@ -54,6 +54,10 @@
 
 .modal p{
     font-size: 2.6rem;
+}
+
+.modal a{
+    font-size: 1.2rem;
 }
 
 .form_control, .modal textarea{
@@ -96,7 +100,7 @@
         max-height: 80vh;
     }
 
-    .modal span{
+    .modal span, .modal a{
         font-size: 2rem;
     }
     
@@ -120,7 +124,8 @@
             "c c"
             "d e"
             "f f"
-            "g g";
+            "g g"
+            "h h";
         text-align: left;
     }
 }
