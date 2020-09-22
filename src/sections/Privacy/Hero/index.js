@@ -6,7 +6,7 @@ export default function Hero(){
     return(
         <div className={styles.hero}>
             <Fade bottom>
-                <h2>Privacy Policy</h2>
+                <h2>Política de Privacidade</h2>
             </Fade>
         </div>
     )
