@@ -16,12 +16,12 @@ export default function LogoGrid(){
                     <h3 className={styles.heading}>Sócios Fundadores</h3>
                     <Fade bottom cascade>
                         <ul className={styles.logo_grid_list}>
-                            <li className={styles.logo_grid_item}><a><img src={logo1} alt="logo1"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo2} alt="logo2"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo3} alt="logo3"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo4} alt="logo4"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo5} alt="logo5"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo6} alt="logo6"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://bcorporation.net/about-b-lab"><img src={logo1} alt="Logo B Lab"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://bcorporation.net/about-b-lab"><img src={logo2} alt="Logo The B Team"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://cecp.co/"><img src={logo3} alt="Logo CECP"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://www.consciouscapitalism.org/"><img src={logo4} alt="Logo Conscious Capitalism"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://www.inc-cap.com/"><img src={logo5} alt="Logo Inclusive Capitalism"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://justcapital.com/"><img src={logo6} alt="Logo Just Capital"/></a></li>
                         </ul>
                     </Fade>
                 </div>

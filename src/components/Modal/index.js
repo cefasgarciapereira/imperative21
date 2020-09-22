@@ -2,7 +2,7 @@ import React, {useState}from 'react'
 import ReactModal from 'react-modal'
 import styles from './styles.module.css'
 import { IoMdClose } from "react-icons/io";
-import modalStyles from './styles'
+//import modalStyles from './styles'
 
 export default function Modal(props){
     const [showModal, setShowModal] = useState(false)

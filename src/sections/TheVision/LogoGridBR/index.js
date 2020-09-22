@@ -15,8 +15,8 @@ export default function LogoGridBR(){
                     <h3 className={styles.heading}>Realização</h3>
                     <Fade bottom cascade>
                         <ul className={styles.logo_grid_list}>
-                            <li className={styles.logo_grid_item}><a><img src={logo_sistema_b} style={{width: '75%'}} alt="Logo Sistema B"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo_capitalismo_consciente} alt="Logo Capitalismo Consciente"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://bcorporation.net/"><img src={logo_sistema_b} style={{width: '75%'}} alt="Logo Sistema B"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://www.ccbrasil.cc/?gclid=CjwKCAjwwab7BRBAEiwAapqpTBtx_SDTIgHjs9_zJF9nqqZU29eqMjvy3qJAWURlIBOg63bWe_OYYxoCXooQAvD_BwE"><img src={logo_capitalismo_consciente} alt="Logo Capitalismo Consciente"/></a></li>
                         </ul>
                     </Fade>
                 </div>
@@ -25,9 +25,9 @@ export default function LogoGridBR(){
                     <h3 className={styles.heading}>Apoio Institucional</h3>
                     <Fade bottom cascade>
                         <ul className={styles.logo_grid_list}>
-                            <li className={styles.logo_grid_item}><a><img src={logo_bbb} alt="Logo Brasil Bolsa Balcão"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo_ethos}  alt="Logo Brasil Bolsa Balcão"/></a></li>
-                            <li className={styles.logo_grid_item}><a><img src={logo_paco_global} style={{width: '90%'}} alt="Logo Pacto Global"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="http://www.b3.com.br/pt_br/"><img src={logo_bbb} alt="Logo Brasil Bolsa Balcão"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://www.ethos.org.br/"><img src={logo_ethos}  alt="Logo Brasil Bolsa Balcão"/></a></li>
+                            <li className={styles.logo_grid_item}><a href="https://www.unglobalcompact.org/engage-locally/latin-america/brazil"><img src={logo_paco_global} style={{width: '90%'}} alt="Logo Pacto Global"/></a></li>
                         </ul>
                     </Fade>
                 </div>

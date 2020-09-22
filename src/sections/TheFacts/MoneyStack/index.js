@@ -8,7 +8,7 @@ export default function MoneyStack(){
         <Slide bottom cascade>
             <div className={styles.money_stack}>
                 <div className={styles.money_stack_inner}>
-                    <img src={money_stack}/>
+                    <img src={money_stack} alt="money stack"/>
 
                     <div className={styles.statistic_group}>
                         <div className={styles.statistic_number}>
