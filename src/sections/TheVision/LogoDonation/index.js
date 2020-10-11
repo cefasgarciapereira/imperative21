@@ -19,7 +19,7 @@ export default function LogoDonation(){
         <div className={styles.logo_grid}>
             <Fade bottom cascade>
                 <div className={styles.logo_grid_inner}>
-                    <h3 className={styles.heading}>Doadores</h3>
+                    <h3 className={styles.heading}>res</h3>
                     <Fade bottom cascade>
                         <ul className={styles.logo_grid_list}>
                             <li className={styles.logo_grid_item}><a href="http://www.allsetcomunicacao.com.br/"><img src={logo_all_set} alt="Logo All Set"/></a></li>

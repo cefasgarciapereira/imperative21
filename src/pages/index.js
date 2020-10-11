@@ -19,7 +19,6 @@ import NewsletterPrompt from '../sections/TheVision/NewsletterPrompt'
 import {default as TheVisionContentSection2} from '../sections/TheVision/ContentSection2'
 import LogoGrid from '../sections/TheVision/LogoGrid'
 import LogoGridBR from '../sections/TheVision/LogoGridBR'
-import LogoDonation from '../sections/TheVision/LogoDonation'
 import StatGrid from '../sections/TheVision/StatGrid'
 import Footer from '../sections/Footer'
 import { Helmet } from "react-helmet"
@@ -65,7 +64,6 @@ export default function Home() {
         {/*<TwitterShare/>*/}
         <LogoGrid/>
         <LogoGridBR/>
-        <LogoDonation/>
         <StatGrid/>
         <Footer/>
       </div>

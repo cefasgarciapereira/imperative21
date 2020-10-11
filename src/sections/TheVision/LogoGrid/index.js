@@ -13,7 +13,7 @@ export default function LogoGrid(){
         <div className={styles.logo_grid}>
             <Fade bottom cascade>
                 <div className={styles.logo_grid_inner}>
-                    <h3 className={styles.heading}>Sócios Fundadores</h3>
+                    <h3 className={styles.heading}>Entidades Organizadoras</h3>
                     <Fade bottom cascade>
                         <ul className={styles.logo_grid_list}>
                             <li className={styles.logo_grid_item}><a href="https://bcorporation.net/about-b-lab"><img src={logo1} alt="Logo B Lab"/></a></li>
